@@ -59,7 +59,8 @@ export default function EditArticle({ url }) {
         color: "#17202A",
       }).showToast();
 
-      navigate("/", { state: { refresh: true } }); 
+      navigate("/", { state: { refresh: true } });
+    } catch (error) {
       console.log(error);
 
       Toastify({
@@ -69,7 +70,7 @@ export default function EditArticle({ url }) {
         position: "left",
         background: "#EF4C54",
         color: "#17202A",
-      }).showToast();
+      }).showToast(); 
     }
   };
 
