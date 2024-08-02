@@ -2,3 +2,7 @@
 # P2-Challenge-2 (Client Side)
 
 > Tuliskan API Docs kamu di sini
+> link deploy cms
+https://lines-today-cms.vercel.app
+> link deploy public
+https://lines-today-public.vercel.app
